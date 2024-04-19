@@ -86,7 +86,7 @@ int mtx_unlock(lock_id id){
 
 <h2>Implementing Fair Share Scheduling algorithm</h2>
 <b>Implemented an advanced scheduler that schedules processes based on fair shares of the CPU. Each process has a share, and the scheduler must ensure that the number of quanta a process has been allocated stays near its predefined share.</b>
-<a href="ttps://github.com/pjain0121/xv6-fairShareScheduler/blob/main/README.md">Git Repo for fair share scheduler</a>
+<a href="https://github.com/pjain0121/xv6-fairShareScheduler/blob/main/README.md">Git Repo for fair share scheduler</a>
 
 <h2>Big Files</h2>
 The goal of this project was to gain better understanding of file system in xv6 by changing the maximum size of an xv6 file.
