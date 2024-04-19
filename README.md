@@ -87,25 +87,7 @@ int mtx_unlock(lock_id id){
 Implemented an advanced scheduler that schedules processes based on fair shares of the CPU. Each process has a share, and the scheduler must ensure that the number of quanta a process has been allocated stays near its predefined share.
 
 https://github.com/pjain0121/xv6-fairShareScheduler/blob/main/README.md
-<h2>Program walk-through:</h2>
 
-<p align="center">
-Creating ships using shift + left click <br/>
-<img src="https://i.imgur.com/jNmwpIb.png" height="80%" width="80%" alt="Feature Pamnel"/>
-<br />
-<br />
-Selecting Mutiple ships using mouse drag:  <br/>
-<img src="https://i.imgur.com/5nlRhUz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Using ctrl + c to copy and crtl +p to paste <br/>
-<img src="https://i.imgur.com/5fsunDv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Grouping items together(yellow ships are a group and moving one ship will move the whole ship)<br/>
-<img src="https://i.imgur.com/5fsunDv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
 
 <!--
  ```diff
