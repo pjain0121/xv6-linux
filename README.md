@@ -85,6 +85,8 @@ int mtx_unlock(lock_id id){
 
 <h2>Implementing Fair Share Scheduling algorithm</h2>
 Implemented an advanced scheduler that schedules processes based on fair shares of the CPU. Each process has a share, and the scheduler must ensure that the number of quanta a process has been allocated stays near its predefined share.
+
+https://github.com/pjain0121/xv6-fairShareScheduler/blob/main/README.md
 <h2>Program walk-through:</h2>
 
 <p align="center">
