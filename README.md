@@ -2,7 +2,8 @@
 
 
 <h2>Description</h2>
-This project was done to gain better understanding of Linux architecture using xv6. xv6 is a simple UNIX like operating system which is often used to teach linux architecture. This project has multiple stages as listed below. These stages includes making changes or adding new components to existing base to improve functionality and implement different ideas to gain better understanding if linux architecture.
+This project was done to gain better understanding of Linux architecture using xv6. xv6 is a simple UNIX like operating system which is often used to teach linux architecture. This project has multiple stages as listed below. These stages includes making changes or adding new components to existing base to improve functionality and implement different ideas to gain better understanding if linux architecture. 
+
 <br />
 
 
@@ -84,11 +85,12 @@ int mtx_unlock(lock_id id){
 </pre>
 
 <h2>Implementing Fair Share Scheduling algorithm</h2>
-Implemented an advanced scheduler that schedules processes based on fair shares of the CPU. Each process has a share, and the scheduler must ensure that the number of quanta a process has been allocated stays near its predefined share.
+<b>Implemented an advanced scheduler that schedules processes based on fair shares of the CPU. Each process has a share, and the scheduler must ensure that the number of quanta a process has been allocated stays near its predefined share.</b>
+<a href="ttps://github.com/pjain0121/xv6-fairShareScheduler/blob/main/README.md">Git Repo for fair share scheduler</a>
 
-https://github.com/pjain0121/xv6-fairShareScheduler/blob/main/README.md
-
-
+<h2>Big Files</h2>
+The goal of this project was to gain better understanding of file system in xv6 by changing the maximum size of an xv6 file.
+<a href="https://github.com/pjain0121/xv6-bigFiles/tree/main">Git Repo for Big Files</a>
 <!--
  ```diff
 - text in red
